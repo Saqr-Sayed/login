@@ -16,7 +16,7 @@ section {
     border: 1px solid rgba(255, 255, 255, 0.692);
     border-radius: 16px;
     padding: 30px;
-    backdrop-filter: blur(15px);
+    backdrop-filter: blur(30px);
     box-shadow: 0 0 10px 1px #e4dcdc6b;
 }
 
