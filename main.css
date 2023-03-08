@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-image: url(background06.jpg);
+    background-size: cover;
+    color: white;
+    font-family: sans-serif;
+}
+
+section {
+    width: 320px;
+    height: 400px;
+    margin: auto;
+    margin-top: 200px;
+    border: 1px solid rgba(255, 255, 255, 0.692);
+    border-radius: 16px;
+    padding: 30px;
+    backdrop-filter: blur(15px);
+    box-shadow: 0 0 10px 1px #e4dcdc6b;
+}
+
+h1,
+hr {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.loginfo {
+    background: none;
+    border: none;
+    width: calc(100% - 40px);
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    padding: 5px;
+}
+
+hr {
+    border: 1px solid rgba(255, 255, 255, 0.644);
+    border-radius: 16px;
+}
+
+.loginfo:focus {
+    outline: none;
+    height: 40px;
+}
+
+img {
+    width: 25px;
+    height: 25px;
+    filter: invert(1);
+
+}
+
+img:first-of-type {
+    width: 20px;
+    height: 20px;
+}
+
+.btn {
+display: block;
+margin: auto;
+margin-top: 40px;
+margin-bottom: 30px;
+width: 50%;
+height: 40px;
+border: none;
+border-radius: 20px;
+font-weight: bold;
+box-shadow: 0px 0px 2px 1px rgb(255, 252, 255);
+background: none;
+color: white;
+}
+
+.btn:hover {
+    background-color: white;
+    color: rgb(63, 62, 62);
+}
